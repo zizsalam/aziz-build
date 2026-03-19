@@ -1,0 +1,82 @@
+{
+  "jobs": [
+    {
+      "role": "Contributor — AI Infrastructure & Agentic Commerce",
+      "company": "Efficient Frontier Labs / HLOS",
+      "url": "https://efficientfrontierlabs.com",
+      "period": "2025 — present",
+      "badge": "active",
+      "description": "Building the settlement layer for agent-to-agent transactions. Contributing across protocol design, grant allocation tooling, agent procurement systems, and core AI infrastructure. Based in San Francisco."
+    },
+    {
+      "role": "Founder",
+      "company": "Sentreso Finance",
+      "url": null,
+      "period": "Jan 2025 — present",
+      "badge": "active",
+      "description": "Building an AI-powered financial assistant for underbanked markets. Shipped a React Native app with voice transaction recording, real-time financial insights, and automated receipt generation — integrating VAPI voice AI and Twilio. End-to-end: product vision, engineering, and go-to-market."
+    },
+    {
+      "role": "Service Designer",
+      "company": "Medic",
+      "url": "https://medic.org",
+      "period": "Oct 2021 — Dec 2023",
+      "badge": null,
+      "description": "Designed and shipped community health applications deployed in 20+ countries. Led end-to-end service design — user research, workflow architecture, cross-functional collaboration with NGO partners and government health systems. Focused on high-impact UX in low-resource environments."
+    },
+    {
+      "role": "Territory Manager & Product Tester",
+      "company": "Wave Mobile Money",
+      "url": null,
+      "period": "Feb 2020 — Oct 2021",
+      "badge": null,
+      "description": "Drove growth strategy and network expansion for one of Africa's fastest-scaling fintech companies. Ran product experiments, conducted user interviews, and fed findings directly into the app development cycle — contributing to Wave's rapid user acquisition."
+    },
+    {
+      "role": "Operations",
+      "company": "Wave (Mobile Remittance)",
+      "url": null,
+      "period": "Mar 2018 — Oct 2021",
+      "badge": null,
+      "description": "Early operator at Wave during its high-growth phase. Supported the operational backbone of a mobile remittance platform that helped bring millions of people into digital financial services."
+    },
+    {
+      "role": "Operations & Technology",
+      "company": "Citi",
+      "url": null,
+      "period": "Aug 2017 — Jan 2018",
+      "badge": null,
+      "description": "O&T role within Citi's international operations. Exposure to enterprise-scale financial infrastructure and institutional processes."
+    },
+    {
+      "role": "Credit Analyst",
+      "company": "West Africa Rating Agency (WARA)",
+      "url": null,
+      "period": "Sep 2014 — Feb 2015",
+      "badge": null,
+      "description": "Conducted credit analysis and financial risk assessment for institutional clients. Foundation in structured financial evaluation and analytical rigor."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Full-Stack Web Development",
+      "school": "Le Wagon",
+      "year": "2023"
+    },
+    {
+      "degree": "Product Management",
+      "school": "BrainStation",
+      "year": "2020"
+    },
+    {
+      "degree": "Master's — Development Practice & Economics",
+      "school": "Cheikh Anta Diop University, Dakar",
+      "year": "2017–2018"
+    },
+    {
+      "degree": "BBA — Marketing Management",
+      "school": "HEC Business School, Universite Internationale",
+      "year": null
+    }
+  ]
+}

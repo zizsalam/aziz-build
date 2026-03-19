@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Penthouse Heist — Agentic Commerce Research",
+    "source": "hlos.ai",
+    "url": "https://hlos.ai/penthouse-heist",
+    "date": "2025",
+    "featured": true,
+    "tags": ["AI Infrastructure", "Agentic Systems"]
+  },
+  {
+    "title": "Grant Allocator: Design Rationale & Architecture",
+    "source": "self-published",
+    "url": null,
+    "date": "2025",
+    "featured": false,
+    "tags": ["DAO Tooling", "AI"]
+  },
+  {
+    "title": "Agent-to-Agent Commerce: From Protocol to Practice",
+    "source": "self-published",
+    "url": null,
+    "date": "2025",
+    "featured": true,
+    "tags": ["AI", "Economics"]
+  },
+  {
+    "title": "Voice AI for Informal Merchants: Lessons from Sentreso",
+    "source": "medium",
+    "url": null,
+    "date": "2025",
+    "featured": false,
+    "tags": ["Fintech", "Africa", "Voice AI"]
+  }
+]

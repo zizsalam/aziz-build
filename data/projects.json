@@ -1,0 +1,28 @@
+[
+  {
+    "title": "HLOS Procurement Agent",
+    "badge": "active",
+    "description": "Autonomous B2B agent that negotiates with suppliers, tracks purchase orders, and bills 18% of verified savings. Three isolated agents (Negotiation, PO Tracking, Savings Audit) run in scoped HLOS spaces with wallet limits. Includes a Next.js dashboard with savings ledger and 10 SF Bay Area prospect pipeline.",
+    "tags": ["javascript", "node.js", "hlos", "claude-api", "langraph", "stripe"],
+    "repo": "https://github.com/zizsalam/hlos-procurement-agent",
+    "url": "https://hlos.ai"
+  },
+  {
+    "title": "Mini Grant Allocator",
+    "badge": "active",
+    "description": "Fully autonomous grant allocation system — AI agents hold budgets, evaluate proposals, and disburse funds with no human in the loop. 3-agent evaluation panel (Evaluator + Skeptic + Coordinator), on-chain identity via Solana/Metaplex NFTs, x402 paid API (0.10 USDC/eval), and ATOM reputation tracking. Built for the Agentic Funding & Coordination challenge track.",
+    "tags": ["python", "claude-api", "solana", "hlos", "flask", "x402"],
+    "repo": "https://github.com/zizsalam/mini-grant-allocator",
+    "url": null
+  },
+  {
+    "title": "Sentreso Finance",
+    "badge": "live",
+    "description": "AI-powered financial assistant shipped to the App Store. Voice transaction recording in French, real-time balance tracking, category analytics, and offline-first architecture. Built end-to-end: React Native + Expo + VAPI voice AI + Supabase + EAS deployment pipeline.",
+    "tags": ["react-native", "typescript", "expo", "vapi", "supabase", "ios"],
+    "repo": "https://github.com/zizsalam/sentreso-app-ios",
+    "url": "https://apps.apple.com/us/app/sentreso-finance/id6748926788",
+    "appStore": true,
+    "image": "/images/sentreso-launch.jpg"
+  }
+]
