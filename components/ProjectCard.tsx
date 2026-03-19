@@ -1,3 +1,5 @@
+"use client";
+
 import Badge from "./Badge";
 import Image from "next/image";
 
@@ -13,14 +15,8 @@ interface Project {
 }
 
 export default function ProjectCard({ project }: { project: Project }) {
-  const link = project.url || project.repo;
   return (
-    <a
-      href={link}
-      target="_blank"
-      rel="noopener noreferrer"
-      className="group block border border-border p-5 transition-all hover:bg-surface"
-    >
+    <div className="group border border-border p-5 transition-all hover:bg-surface">
       {project.image && (
         <div className="mb-4 rounded overflow-hidden">
           <Image
@@ -42,7 +38,7 @@ export default function ProjectCard({ project }: { project: Project }) {
       <p className="text-body text-xs leading-relaxed mb-3">
         {project.description}
       </p>
-      <div className="flex flex-wrap gap-1.5">
+      <div className="flex flex-wrap gap-1.5 mb-3">
         {project.tags.map((tag) => (
           <span
             key={tag}
@@ -52,21 +48,30 @@ export default function ProjectCard({ project }: { project: Project }) {
           </span>
         ))}
       </div>
-      <div className="mt-3 flex items-center gap-2 text-[10px] text-dim">
+      <div className="flex items-center gap-3 text-[10px]">
         {project.repo && (
-          <span className="hover:text-accent transition-colors">
+          <a
+            href={project.repo}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-dim hover:text-accent transition-colors"
+            onClick={(e) => e.stopPropagation()}
+          >
             github ↗
-          </span>
+          </a>
         )}
         {project.url && (
-          <span className="hover:text-accent transition-colors">
-            live ↗
-          </span>
+          <a
+            href={project.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-dim hover:text-accent transition-colors"
+            onClick={(e) => e.stopPropagation()}
+          >
+            {project.appStore ? "app store ↗" : "live ↗"}
+          </a>
         )}
       </div>
-      <span className="block mt-2 text-accent text-xs opacity-0 -translate-x-2 transition-all group-hover:opacity-100 group-hover:translate-x-0">
-        →
-      </span>
-    </a>
+    </div>
   );
 }
