@@ -9,10 +9,10 @@
   },
   {
     "title": "Grant Allocator: Design Rationale & Architecture",
-    "source": "self-published",
-    "url": null,
+    "source": "aziz.build",
+    "url": "/writing/grant-allocator",
     "date": "2025",
-    "featured": false,
+    "featured": true,
     "tags": ["DAO Tooling", "AI"]
   },
   {
